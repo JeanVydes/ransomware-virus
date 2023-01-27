@@ -4,7 +4,9 @@
 
 For security a line in the code is commented
 
-`let path = "/home/folder_never_used"; //detect_os_path();`
+```rust
+let path = "/home/folder_never_used"; //detect_os_path();
+````
 
 Uncomment `detect_os_path()` and delete `"/home/folder_never_used"` for be usable in any os;
 
